@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+*{
+    margin: 0;
+}
+
+/* shared style */
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    border: none;
+    color: white;
+    background-color: #FD6E0A;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 18px 35px 18px 35px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
+
+.btn-primary2{
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    background-color: white;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 18px 35px 18px 35px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
+
+.primary-title{
+    text-align: center;
+    font-family: open sans;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+/* Header */
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+
+/* nav */
+
+nav {
+    display: flex;
+    font-family: "Work Sans", serif;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+    padding-top: 43px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+
+/* banner */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 0px 200px;
+    align-items: center;
+}
+
+.banner-title{
+    font-size: 80px;
+    font-family: open sans;
+    font-weight: 800;
+    line-height: 80px;
+}
+
+
+.banner-greet{
+    font-size: 35px;
+    color: #474747;
+    font-family: open sans;
+    font-weight: 500;
+}
+
+.banner-details{
+    font-family: open sans;
+    font-size: 18px;
+    color: #757575;
+}
+
+.banner-content{
+    width: 585px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* about me */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    margin-bottom: 100px;
+    padding: 130px 150px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+    border: solid 2px #757575;
+}
+
+.about-title{
+    text-align: center;
+    font-family: open sans;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.about-description{
+    font-family: open sans;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+}
+
+
+.about-detail {
+    display: flex;
+    justify-content:space-between;
+}
+
+.item-title{
+    color: #757575  ;
+    font-family: open sans;
+    font-size: 20px;
+}
+
+.item-description{
+    color: #333333;
+    font-family: open sans;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+/* Skills */
+
+.skills{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+.what-i-do{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.what-title{
+    font-weight: 600;
+}
+
+.what-description{
+    font-family: open sans;
+    font-size: 18px;
+    color: #757575;
+    width: 909px;
+}
+
+.card-holder{
+    display: flex;
+    /* background-color: #F3F3F3; */
+    border-radius: 5px;
+}
+
+.skill-card{
+    margin: 10px;
+    /* border: 2px solid; */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+    border-radius: 10px;
+    background-color: white;
+    font-style: open sans;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.icon{
+ width: 44px;
+ height: 44px;
+}
+
+.skill-title{
+    font-family: open sans;
+}
+
+.skill-detail{
+    font-family: open sans;
+    font-size: 18px;
+    color: #757575;
+}
+
+
+
+/* resume */
+
+.resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.resume-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.single-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.resume-sub-title{
+    font-family: open sans;
+    color: #474747;
+    font-size: 30px;
+}
+
+.containers{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-right: 100px;
+}
+
+
+.degree{
+    font-family: open sans;
+    color: #474747;
+    font-size: 25px;
+}
+
+.university{
+    font-family: open sans;
+    color: #757575;
+    font-size: 20px;
+}
+
+.degree-detail{
+    font-family: open sans;
+    color: #757575;
+    font-size: 16px;
+}
+
+
+
+
+/* Contact */
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 130px 230px;
+    background-color: #FFF8F3;
+    font-family: open sans;
+    margin-top: 113px;
+}
+
+.foot-container{
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 50%;
+}
+
+.contact-title{
+    color: #181818;
+    font-size: 35px;
+}
+
+footer .para{
+    color: #757575;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input{
+    border: none;
+    height: 64px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+textarea{
+    border: none;
+    height: 180px;
+    font-size: 15px;
+    padding: 20px;
+}
