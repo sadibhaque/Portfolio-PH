@@ -331,6 +331,7 @@ footer{
     max-width: 1140px;
     display: flex;
     justify-content: center;
+    gap: 30px;
 }
 
 .contact{
