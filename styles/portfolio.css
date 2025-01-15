@@ -370,3 +370,87 @@ textarea{
     font-size: 15px;
     padding: 20px;
 }
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width : 576px) {
+    .card-holder{
+        flex-direction: column;
+    }
+    .skills{
+        width: 100%;
+    }
+
+    .what-i-do{
+        width: 100%;
+    }
+    .what-description{
+        width: 100%;
+    }
+    .resume{
+        width: 100%;
+    }
+    .resume-container{
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .foot-container{
+        flex-direction: column;
+    }
+    .contact{
+        width: 100%;
+    }
+    footer{
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .about-container{
+        padding: 20px;
+        margin-top: 0;
+        padding-top: 20px;
+    }
+    .about-detail{
+        flex-direction: column;
+    }
+    .sub-about{
+        display: flex;
+        gap: 10px;
+    }
+    .banner{
+        margin: 0px;
+        gap: 30px;
+    }
+    .banner, .banner-content{
+        flex-direction: column;
+        width: 90%;
+    }
+    .banner img{
+        width: 90%;
+    }
+    .banner-details{
+        width: 90%;
+    }
+    nav{
+        width: calc(100%-10px);
+        margin: 0;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+    .header{
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .xc{
+        display: flex;
+        width: 80%;
+    }
+}
